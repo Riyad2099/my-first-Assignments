@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans';
+}
+/* background image added */
+.banner{
+    /* position: absolute; */
+    background-image: url('../images/banner/banner3.png');
+    width: 1600px;
+    height: 808px;
+}
+.banner-text{
+    text-align: right;
+    margin: 216px 230px 364px 845px;
+}
+.banner-title{
+    /* font-family: 'Work Sans'; */
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    color: #FFFFFF;
+}
+    .banner-subtitle{
+    /* font-family: 'Work Sans'; */
+    margin: 30px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+    color: #FFFFFF;
+}
+.btn-primary{
+    border-radius: 5px;
+    border: 0;
+    width: 160px;
+    height: 64px;
+    left: 1210px;
+    top: 578px;
+
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+    font-style: normal;
+}
+.my-failures{
+    margin: 50px 300px 50px 190px ;
+    padding: 0;
+    background-repeat: no-repeat;
+    display: flex;
+}
+.my-failures img{
+    width: auto;
+    height: auto;
+}
+.failures-history{
+    margin-top: 416px;
+    margin-left: 87px;
+
+}
+.failures-history h3{
+    /* font-family: 'Work Sans'; */
+    margin-bottom: 24px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+.failures-history p{
+    /* font-family: 'Work Sans'; */
+    margin-bottom:16px ;
+    padding: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+.failures-history ul{
+    margin-bottom: 20px;
+	margin-left: 10px;
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+/* checkmark added */
+ul li:before {
+    content: '✓';
+    color: #16D887;
+    margin-right: 16px;
+  }
+ul li{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+} 
+
+/* Skill section added */
+.my-plan{
+    margin: 30px 200px;
+}
+.my-plan h3{
+    /* font-family: 'Work Sans'; */
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+.skill-container{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+
+}
+.skill img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.skill-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+    }
+    .skill_desc{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 29px;
+        text-align: center;
+        color: #737272;
+
+    }
