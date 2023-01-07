@@ -184,10 +184,11 @@ ul li {
     border-radius: 8px;
 }
 .mindset-image{
-    width: 1080px;
+    width: 1000px;
     height: 250px;
     background: linear-gradient(90deg, #2897f2 0%, rgba(0, 95, 172, 0) 100%),url(../images/watch.png) ; 
     background-repeat: no-repeat;
+    border-radius: 4px;
 }
 .mindset-image h3{
     margin-top:20px; 
