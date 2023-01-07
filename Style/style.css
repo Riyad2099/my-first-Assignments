@@ -70,9 +70,9 @@
 }
 
 .my-failures {
-    margin: 50px 300px 50px 190px;
+    margin: 50px 300px 50px 120px;
     padding: 0;
-    background-repeat: no-repeat;
+    /*  background-repeat: no-repeat; */
     display: flex;
 }
 
