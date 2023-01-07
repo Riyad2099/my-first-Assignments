@@ -16,7 +16,7 @@
     height: 808px;
 }
 
-.banner-content {
+/* .banner-content {
     top: 50%;
     margin-right: 500px;
     margin-left: 500px;
@@ -24,8 +24,17 @@
     transform: translate(+50%);
     text-align: center left;
 
-}
+} */
 
+.banner-content {
+   padding-top: 300px;
+   padding-left: 350px;
+    margin-right:260px;
+    margin-left: 500px;
+    
+   
+    text-align: center left;
+}
 .banner-title {
     text-align: right;
     font-weight: 700;
@@ -45,7 +54,7 @@
 }
 
 .btn-primary {
-    margin-left: 400px;
+    margin-left: 250px;
     background-color: #F8F8F8;
     border-radius: 5px;
     border: 0;
@@ -171,9 +180,37 @@ ul li {
 
 .mindset {
     margin: 200px;
-    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    /* background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%); */
     border-radius: 8px;
 }
+.mindset-image{
+    width: 1080px;
+    height: 250px;
+    background: linear-gradient(90deg, #2897f2 0%, rgba(0, 95, 172, 0) 100%),url(../images/watch.png) ; 
+    background-repeat: no-repeat;
+}
+.mindset-image h3{
+    margin-top:20px; 
+    padding-top: 30px;
+    margin-left: 30px;
+    margin-right: 617px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+.btn-call{
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 160px;
+    height: 64px;
+    left: 294px;
+    top: 2398.96px;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
 
 footer {
     background-color: #151414;
@@ -184,7 +221,7 @@ footer {
 .more-info {
     margin-top: 200px;
     margin-left: 200px;
-    margin-right: 200px;
+    margin-right: 100px;
     margin-bottom: 200px;
 }
 
@@ -196,6 +233,7 @@ footer {
 }
 
 .more-info p {
+    margin-top: 20px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -208,10 +246,18 @@ footer {
     margin-top: 200px;
     margin-left: 200px;
     margin-right: 200px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
 }
 
 .subscribe input {
-    border-bottom: 2px solid #FFFFFF;
+    border-radius:3px;
+    width: 325px;
+    height: 64px;
+    left: 1046px;
+    top: 2841.96px;
+    border: 2px solid #FFFFFF;
 }
 
 .btn-secondary {
@@ -223,4 +269,9 @@ footer {
 
     background: #005FAC;
     border-radius: 8px;
+}
+.social{
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
 }
