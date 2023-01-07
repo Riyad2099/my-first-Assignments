@@ -207,6 +207,7 @@ ul li {
     height: 64px;
     left: 294px;
     top: 2398.96px;
+    color: #005FAC;
 
     background: #FFFFFF;
     border-radius: 5px;
@@ -222,7 +223,7 @@ footer {
 .more-info {
     margin-top: 200px;
     margin-left: 200px;
-    margin-right: 100px;
+    margin-right: 50px;
     margin-bottom: 200px;
 }
 
@@ -267,6 +268,7 @@ footer {
     height: 64px;
     left: 1046px;
     top: 2921.96px;
+    color: #FFFFFF;
 
     background: #005FAC;
     border-radius: 8px;
