@@ -282,8 +282,8 @@ footer {
 }
 .square{
         margin-bottom: 50px;
-        background: #FFF8F3;
-        border: 2px slid blue;
+        background: #dcdbf1;
+        /* border: 2px slid blue; */
         border-radius: 10px;
         padding: 50px 50px;
         display: flex;
